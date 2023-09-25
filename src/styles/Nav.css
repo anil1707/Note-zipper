@@ -1,0 +1,49 @@
+
+
+.main_container{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#1976d2;
+    height: 50px;
+    width: 98vw;
+    border-radius: 9px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.navLink{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+
+.searchContainer{
+    margin-left: 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.credentialContainer{
+    display: flex;
+    margin-right: 30px;
+    /* width: 100px; */
+    justify-content: space-between;
+}
+
+.credBtn{
+    text-decoration: none;
+    /* font-weight: bold; */
+    color: black;
+    /* text-align: center; */
+    margin-right: 10px;
+}
